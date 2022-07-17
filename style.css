@@ -374,10 +374,6 @@
     rollOut var(--duration) var(--total) forwards;
 }
 
-.title span:nth-child(2)::after {
-  border-top: 1px solid cyan;
-}
-
 .title span:nth-child(3)::after {
   border-top: 1px solid cyan;
 }
@@ -387,6 +383,10 @@
 }
 
 .title span:nth-child(5)::after {
+  border-top: 1px solid cyan;
+}
+
+.title span:nth-child(6)::after {
   border-top: 1px solid cyan;
 }
 
@@ -433,7 +433,7 @@
 
 .not-found-1 {
   text-shadow: white -3px 0,
-  cyan 3px 0 !important;
+    cyan 3px 0 !important;
   padding-left: 1rem;
   color: red !important;
 }
