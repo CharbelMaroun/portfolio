@@ -23,8 +23,8 @@
 }
 
 .header-div-img {
-  width: 5rem;
-  top: 10px;
+  width: 4rem;
+  top: 5px;
   left: 4rem;
   position: fixed;
 }
@@ -285,11 +285,11 @@
 }
 
 .typing-demo {
-  width: 37ch;
-  animation: typing 8s steps(37), blink .5s step-end infinite alternate;
+  width: 35ch;
+  animation: typing 8s steps(35), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: #7566df 3px solid;
+  border-right: #2ec4c1 3px solid;
   font-family: monospace;
   font-size: 2rem;
 }
