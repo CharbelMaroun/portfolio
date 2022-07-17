@@ -323,7 +323,7 @@
     display: block;
   }
 
-  .typing-demo{
+  .typing-demo {
     display: none;
   }
 
@@ -432,8 +432,10 @@
 }
 
 .not-found-1 {
+  text-shadow: white -3px 0,
+  cyan 3px 0 !important;
   padding-left: 1rem;
-  color: red;
+  color: red !important;
 }
 
 .not-found-2 {
