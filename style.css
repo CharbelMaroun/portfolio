@@ -322,6 +322,14 @@
   .menu__btn {
     display: block;
   }
+
+  .typing-demo{
+    display: none;
+  }
+
+  .header-div-img {
+    left: 2rem;
+  }
 }
 
 .animation {
@@ -341,7 +349,7 @@
 }
 
 .title span {
-  font-size: 2rem;
+  font-size: 1.2rem;
   /* width: 50vw; */
   --total: calc(var(--duration) + var(--delay));
   position: relative;
@@ -401,14 +409,14 @@
 }
 
 .not-found {
-  margin: 2rem 0;
+  margin: 0.5rem 0;
   display: flex !important;
   justify-content: center;
 }
 
 .not-found span {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Anonymous Pro',
     monospace;
   text-shadow: red -3px 0,
@@ -437,7 +445,7 @@
 .rotate-words span {
   padding: 0 3rem;
   font-size: 3rem;
-  top: 60%;
+  bottom: 20%;
   left: -2%;
   position: absolute;
   display: flex;
